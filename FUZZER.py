@@ -59,7 +59,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 #print(list_403)
 print("Now 403_Forbidden urls are seperated do you want to try bypass them?")
-print("Enter 1 if you want to person to exit press any key" )
+print("Enter 1 to bypass , To exit press any key" )
 check_403 = input("enter:" )
 if str(check_403) == "1":
     loop = asyncio.get_event_loop()
